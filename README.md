@@ -3,7 +3,7 @@ You can run this project on Google Colab, or run in your system.
 
 In this notebook file you can run notebook_import_variables() to load all env variables, dataframes, scalers and another data, in any cell, to avoid re-run entire notebook to obtain data.
 
-[Jupyter_notebook_file](notebooks\BirminghamCC_PurchaseCardTransactions.ipynb)
+[Jupyter_notebook_file](https://github.com/ddlandim/DS-BirminghamCardTransactions/blob/main/notebooks/BirminghamCC_PurchaseCardTransactions.ipynb)
 
 ## System-requirements
  - Miniconda terminal
