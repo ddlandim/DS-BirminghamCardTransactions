@@ -1,7 +1,9 @@
 # HOW TO RUN THIS PROJECT:
 You can run this project on Google Colab, or run in your system.
 
-colab: https://colab.research.google.com/drive/1dqggrQmo-oEa2XsVEwRhsdC6haXx4-8b?usp=sharing
+In this notebook file you can run notebook_import_variables() to load all env variables, dataframes, scalers and another data, in any cell, to avoid re-run entire notebook to obtain data.
+
+(Jupyter_notebook_file)[notebooks\BirminghamCC_PurchaseCardTransactions.ipynb]
 
 ## System-requirements
  - Miniconda terminal
@@ -11,7 +13,7 @@ In miniconda terminal you can install, activate or close environment to run this
 **Open a miniconda terminal in project root folder to do the following steps:**
 
 ## Environment install (dont need to do, if you already downloaded env folder on project root)
-    $ conda create --prefix ./env pandas numpy matplotlib scikit-learn seaborn tensorflow pytorch jupyter statsmodels xlrd pmdarima
+    $ conda create --prefix ./env pandas numpy matplotlib scikit-learn seaborn tensorflow pytorch jupyter statsmodels xlrd pmdarima dill
 
 ## Activate this environment to run this project:
     $ conda activate .\env
